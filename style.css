@@ -21,8 +21,9 @@ main{
     flex-direction: column;
 }
 
-h1{
-    font-size: 40px;
+.digital_natives{
+    height: 3.3em;
+    margin-bottom: 1em;
 }
 
 .text{
