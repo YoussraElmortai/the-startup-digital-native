@@ -1,7 +1,10 @@
 :root
 
+
 body{
 max-width: 30em;
+font-family: 'IBM Plex Sans', sans-serif;
+
 
 }
 
@@ -9,15 +12,29 @@ header{
 
 }
 
+.logo{
+    height: 4.5em;
+}
+
 main{
     display: flex;
     flex-direction: column;
 }
 
+h1{
+    font-size: 40px;
+}
+
+.text{
+    font-size: 22px;
+    margin-bottom: 2em;
+}
+
+
 .group_img{
   height: 18em;
-  width: 30em;
   border-radius: 0.3em;
+  margin-bottom: 3em;
 }
 
 
@@ -37,6 +54,14 @@ main{
     border-radius: 0.3em;
 }
 
+
+.member_name{
+    font-size: 18px;
+}
+
+.member_job{
+    font-size: 13.2px;
+}
 
 footer{
 
