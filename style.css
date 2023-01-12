@@ -3,9 +3,8 @@
 
 body{
 margin-left: 1em;
-max-width: 30em;
+max-width: 25em;
 font-family: 'IBM Plex Sans', sans-serif;
-
 
 }
 
@@ -21,7 +20,7 @@ margin-bottom: 2em;
 
 .hamburger_placeholder{
     height:2.5em;
-    margin-left: 21em;
+    margin-left: 20em;
     margin-top: 0.9em;
 }
 
@@ -36,13 +35,14 @@ main{
 }
 
 .text{
-    font-size: 22px;
+    font-size: 19px;
     margin-bottom: 2em;
 }
 
 
 .group_img{
-  height: 20.5em;
+  height: 20em;
+  width: 28em;
   border-radius: 0.3em;
   margin-bottom: 3em;
 }
@@ -60,20 +60,19 @@ main{
 
 
 .team_member_img{
-    height: 19.2em;
+    height: 15em;
     border-radius: 0.3em;
 }
 
-
 .member_name{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .member_job{
-    font-size: 14.3px;
+    font-size: 12px;
     margin-bottom: 2em;
     margin-top: 0.5em;
-    color: rgb(164, 169, 170);
+    color: rgb(139, 144, 145);
 }
 
 footer{
