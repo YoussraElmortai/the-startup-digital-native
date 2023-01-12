@@ -1,0 +1,43 @@
+:root
+
+body{
+max-width: 30em;
+
+}
+
+header{
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.group_img{
+  height: 18em;
+  width: 30em;
+  border-radius: 0.3em;
+}
+
+
+.team_members{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.team_member_card{
+    margin-right: 1.5em;
+}
+
+
+.team_member_img{
+    height: 18.5em;
+    border-radius: 0.3em;
+}
+
+
+footer{
+
+}
