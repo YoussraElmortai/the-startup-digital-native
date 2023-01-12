@@ -2,6 +2,7 @@
 
 
 body{
+margin-left: 1em;
 max-width: 30em;
 font-family: 'IBM Plex Sans', sans-serif;
 
@@ -33,7 +34,7 @@ main{
 
 
 .group_img{
-  height: 18em;
+  height: 20.5em;
   border-radius: 0.3em;
   margin-bottom: 3em;
 }
@@ -51,7 +52,7 @@ main{
 
 
 .team_member_img{
-    height: 18.5em;
+    height: 19.2em;
     border-radius: 0.3em;
 }
 
@@ -62,6 +63,7 @@ main{
 
 .member_job{
     font-size: 13.2px;
+    margin-bottom: 2em;
 }
 
 footer{
