@@ -2,7 +2,7 @@
 
 
 body{
-margin-left: 1em;
+margin-left: 2em;
 max-width: 25em;
 font-family: 'IBM Plex Sans', sans-serif;
 
@@ -24,13 +24,10 @@ margin-bottom: 2em;
     margin-top: 0.9em;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .digital_natives{
-    height: 3.3em;
+    height: 4em;
     margin-bottom: 1em;
 }
 
@@ -41,8 +38,8 @@ main{
 
 
 .group_img{
-  height: 20em;
-  width: 28em;
+  height: 18em;
+  width: 27em;
   border-radius: 0.3em;
   margin-bottom: 3em;
 }
@@ -60,7 +57,7 @@ main{
 
 
 .team_member_img{
-    height: 15em;
+    height: 15.19em;
     border-radius: 0.3em;
 }
 
@@ -73,6 +70,10 @@ main{
     margin-bottom: 2em;
     margin-top: 0.5em;
     color: rgb(139, 144, 145);
+}
+
+.grey{
+    color: rgb(122, 126, 126);
 }
 
 footer{
