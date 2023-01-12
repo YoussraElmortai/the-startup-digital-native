@@ -10,11 +10,19 @@ font-family: 'IBM Plex Sans', sans-serif;
 }
 
 header{
-
+display: flex;
+flex-direction: row;
+margin-bottom: 2em;
 }
 
 .logo{
     height: 4.5em;
+}
+
+.hamburger_placeholder{
+    height:2.5em;
+    margin-left: 21em;
+    margin-top: 0.9em;
 }
 
 main{
@@ -58,12 +66,14 @@ main{
 
 
 .member_name{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .member_job{
-    font-size: 13.2px;
+    font-size: 14.3px;
     margin-bottom: 2em;
+    margin-top: 0.5em;
+    color: rgb(164, 169, 170);
 }
 
 footer{
