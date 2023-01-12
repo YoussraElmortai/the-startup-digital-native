@@ -32,9 +32,19 @@ margin-bottom: 2em;
 }
 
 .text{
+    opacity: 1;
     font-size: 19px;
     margin-bottom: 2em;
+    /* transition: all 1s;
+    transform: translateZ(-100%);
+    filter: blur(3px); */
 }
+
+/* .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+} */
 
 
 .group_img{
@@ -44,6 +54,10 @@ margin-bottom: 2em;
   margin-bottom: 3em;
 }
 
+.team_container{
+    display: grid;
+
+}
 
 .team_members{
     display: flex;
@@ -74,6 +88,10 @@ margin-bottom: 2em;
 
 .grey{
     color: rgb(122, 126, 126);
+}
+
+.display_imgs{
+    height: 20em;
 }
 
 footer{
