@@ -3,25 +3,26 @@
 
 body{
 margin-left: 2em;
-/* max-width: 320vw; */
 font-family: 'IBM Plex Sans', sans-serif;
 
 }
 
 header{
 display: flex;
+width: 100%;
+background-color: white;
 flex-direction: row;
-margin-bottom: 2em;
+margin-bottom: 1em;
 }
 
 .logo{
-    height: 4.5em;
+    height:5em;
 }
 
 .hamburger-placeholder{
-    height:2.5em;
-    margin-left: 20em;
-    margin-top: 0.9em;
+    height: 2.5em;
+    margin-left: 16em;
+    margin-top: 1.5em;
 }
 
 
@@ -37,18 +38,17 @@ margin-bottom: 2em;
     margin-bottom: 2em;
     transition: all 1s;
     transform: translateY(100%);
-    filter: blur(1px); 
 }
 .show{
     opacity: 1;
-    filter: blur(0);
     transform: translateY(0);
 }
 
 
 .group-img{
-  height: 18em;
+  height: auto;
   width: 27em;
+  max-width: 100%;
   border-radius: 0.3em;
   margin-bottom: 3em;
 }
@@ -62,18 +62,19 @@ margin-bottom: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
     position: relative;
 }
 
 .team-member-card{
-    margin-bottom: 1em;
-    margin-left: 0.5em;
+    width: 40%;
+    flex-grow: 1;
 }
 
 
 .team-member-img{
-    height: 18.5em;
+    height: auto;
+    width: 100%;
     border-radius: 0.3em;
 }
 
