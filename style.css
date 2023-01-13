@@ -3,7 +3,7 @@
 
 body{
 margin-left: 2em;
-max-width: 25em;
+max-width: 30em;
 font-family: 'IBM Plex Sans', sans-serif;
 
 }
@@ -35,12 +35,12 @@ margin-bottom: 2em;
     opacity: 1;
     font-size: 19px;
     margin-bottom: 2em;
+}
     /* transition: all 1s;
     transform: translateZ(-100%);
-    filter: blur(3px); */
+    filter: blur(3px); 
 }
-
-/* .show{
+.show{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
@@ -57,7 +57,7 @@ margin-bottom: 2em;
 .team_container{
     display: grid;
 
-}
+} 
 
 .team_members{
     display: flex;
@@ -66,21 +66,24 @@ margin-bottom: 2em;
 }
 
 .team_member_card{
-    margin-right: 1.5em;
+    margin-right: 1.3em;
+    height: 20em;
+    width: 11.2em;
+    margin-bottom: 2em;
 }
 
 
 .team_member_img{
-    height: 15.19em;
+    height: 17em;
     border-radius: 0.3em;
 }
 
 .member_name{
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .member_job{
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 2em;
     margin-top: 0.5em;
     color: rgb(139, 144, 145);
