@@ -83,15 +83,22 @@ z-index: 1; */
     height: auto;
     width: 100%;
     border-radius: 0.3em;
-    z-index: 0;
 }
 
 
 .team-member-sprite{
     /* opacity: 0; */
     height: 4em;
-    width: 5.5em;
+    width: 5.2em;
     z-index: 1;
+    float: left;
+    position: relative;
+    top: 19.8em;
+    margin-left: 8.3em;
+}
+
+.sprite-animation{
+    
 }
 
 
@@ -115,27 +122,28 @@ z-index: 1; */
     height: 20em;
 }
 
+.contact-informations{
+    background-color: rgb(255, 255, 112);
+    height: 18em;
+    margin-bottom: 6em;
+    margin-top: 2em;
+}
+
 footer{
 
 }
 
 /* tablet scherm */
 @media screen and (min-width: 768px) {
-    body{
-    background-color: rgb(151, 151, 151);
-}
+
 }
 
 /* laptop scherm */
 @media screen and (min-width: 1024px) {
-    body {
-        background-color: rgb(255, 97, 231);
-    }
+    
 }
 
 /* groot laptop scherm */
 @media screen and (min-width: 1440px) {
-    body {
-        background-color: rgb(97, 210, 255);
-    }
+ 
 }
