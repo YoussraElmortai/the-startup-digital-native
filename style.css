@@ -34,10 +34,16 @@ z-index: 1; */
 }
 
 .text{
+    font-size: 19px;
+    margin-bottom: 2em;
+
+}
+.text2{
     opacity: 1;
     font-size: 19px;
     margin-bottom: 2em;
-    transition: all 1s;
+    transition: all 360ms ease-out;
+    transition: transform 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
     transform: translateY(100%);
 }
 .show{
@@ -51,7 +57,7 @@ z-index: 1; */
   width: 27em;
   max-width: 100%;
   border-radius: 0.3em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .team-container{
@@ -78,6 +84,12 @@ z-index: 1; */
     width: 100%;
     border-radius: 0.3em;
 }
+
+.team-member-sprite{
+}
+
+
+
 
 .member-name{
     font-size: 16px;
