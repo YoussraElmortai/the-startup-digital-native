@@ -85,9 +85,12 @@ z-index: 1; */
     border-radius: 0.3em;
 }
 
-.team-member-sprite{
-}
 
+.team-member-sprite{
+    /* opacity: 0; */
+    height: 5em;
+    width: 5.5em;
+}
 
 
 
