@@ -83,13 +83,15 @@ z-index: 1; */
     height: auto;
     width: 100%;
     border-radius: 0.3em;
+    z-index: 0;
 }
 
 
 .team-member-sprite{
     /* opacity: 0; */
-    height: 5em;
+    height: 4em;
     width: 5.5em;
+    z-index: 1;
 }
 
 
