@@ -88,13 +88,13 @@ z-index: 1; */
 
 .team-member-sprite{
     /* opacity: 0; */
-    height: 4em;
-    width: 5.2em;
+    height: 3em;
+    width: 4em;
     z-index: 1;
     float: left;
     position: relative;
-    top: 19.8em;
-    margin-left: 8.3em;
+    top: 19.9em;
+    margin-left: 7em;
 }
 
 .sprite-animation{
