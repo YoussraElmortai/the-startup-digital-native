@@ -80,8 +80,8 @@ z-index: 1; */
 
 
 .team-member-img{
-    height: auto;
-    width: 100%;
+    height: 20em;
+    width: 14em;
     border-radius: 0.3em;
 }
 
@@ -122,12 +122,37 @@ z-index: 1; */
     height: 20em;
 }
 
+
+.news-list{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    list-style: none;
+}
+
+.li-news{
+    display:flex;
+    flex-direction: row;
+}
+
+.li-news a{
+    text-decoration: none;
+}
+
+.img-links{
+    height: 10em;
+    width: auto;
+}
+
+
+
 .contact-informations{
     background-color: rgb(255, 255, 112);
     height: 18em;
     margin-bottom: 6em;
     margin-top: 2em;
 }
+
 
 footer{
 
