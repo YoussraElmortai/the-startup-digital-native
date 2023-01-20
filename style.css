@@ -83,24 +83,55 @@ z-index: 1; */
     height: 20em;
     width: 14em;
     border-radius: 0.3em;
+    position: relative;
 }
 
+.team-member-img:hover{
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+.team-member-img-alt{
+    height: 20em;
+    width: 14em;
+    border-radius: 0.3em;
+    position: absolute;
+    left: 0;
+    
+}
 
 .team-member-sprite{
     /* opacity: 0; */
     height: 3em;
     width: 4em;
-    z-index: 1;
+    z-index: 3;
     float: left;
     position: relative;
-    top: 19.9em;
-    margin-left: 7em;
+    top: 22em;
+    margin-left: 10em;
 }
 
 .sprite-animation{
-    
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
+/* bounce animation */
+
+@keyframes bounce {
+    0%{
+        top:21em
+    }
+
+    50%{
+        top:23em
+    }
+
+    100%{
+        top: 22em;
+    }
+}
 
 
 .member-name{
