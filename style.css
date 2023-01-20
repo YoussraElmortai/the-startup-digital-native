@@ -68,27 +68,36 @@ main{
 
 .team-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 
 } 
 
 .team-members{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
     gap: 0.5rem 1rem;
     position: relative;
 }
 
 .team-member-card{
-    width: 40%;
-    flex-grow: 1;
+    width: 100%;
+    background: pink;
+    /* flex-grow: 1; */
 }
+/* als er 2 kolommen kunnne
+dan krijgen de cards width: 50%
+*/
 
+/* als er 3 kolommen kunnne
+dan krijgen de cards width:30%
+*/
 
 .team-member-img{
-    height: 20em;
-    width: 14em;
+    /* height: 20em; */
+    width: 100%;
     border-radius: 0.3em;
     position: relative;
 }
