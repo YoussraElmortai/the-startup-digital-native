@@ -36,7 +36,6 @@ z-index: 1; */
 .text{
     font-size: 19px;
     margin-bottom: 2em;
-    width: 25em;
 
 }
 .text2{
@@ -46,7 +45,6 @@ z-index: 1; */
     transition: all 360ms ease-out;
     transition: transform 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
     transform: translateY(100%);
-    width: 25em;
 }
 .show{
     opacity: 1;
