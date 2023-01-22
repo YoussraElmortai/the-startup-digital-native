@@ -2,7 +2,6 @@
 
 
 body{
-margin: 1;
 font-family: 'IBM Plex Sans', sans-serif;
 display: flex;
 flex-direction: column;
@@ -77,14 +76,12 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 0.5rem 1rem;
     position: relative;
 }
 
 .team-member-card{
-    width: 100%;
-    background: pink;
+    width: 40%; 
+
     /* flex-grow: 1; */
 }
 /* als er 2 kolommen kunnne
@@ -96,15 +93,15 @@ dan krijgen de cards width:30%
 */
 
 .team-member-img{
-    /* height: 20em; */
-    width: 100%;
+    height: 20em;
+    width: 9.4em;
     border-radius: 0.3em;
     position: relative;
 }
 
 .team-join-img{
     height: 20em;
-    width: max-content;
+    width: 13em;
     border-radius: 0.3em;
     position: relative;
 }
@@ -206,17 +203,26 @@ footer{
 
 /* tablet scherm */
 @media screen and (min-width: 768px) {
-    
+    .team-member-card {
+            width: 30%;
+            /* flex-grow: 1; */
+        }
 }
 
 /* laptop scherm */
 @media screen and (min-width: 1024px) {
-    main{
-    }
+.team-member-card {
+        width: 25%;
+        
+}
 }
 
 /* groot laptop scherm */
 @media screen and (min-width: 1440px) {
- 
+.team-member-card {
+        width: 25%;
+       
+        /* flex-grow: 1; */
+    }
 }
 
