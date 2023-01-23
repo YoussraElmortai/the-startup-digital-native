@@ -2,7 +2,7 @@
 
 
 body{
-font-family: 'IBM Plex Sans', sans-serif;
+font-family:'Gill Sans', 'Gill Sans MT';
 display: flex;
 flex-direction: column;
 
@@ -29,9 +29,6 @@ z-index: 1; */
     margin-top: 1.5em;
 }
 
-main{
- 
-}
 
 .digital-natives{
     height: 4em;
@@ -109,6 +106,7 @@ dan krijgen de cards width:30%
 .team-member-img:hover{
     transition: 0.6s ease-in-out;
     opacity: 0;
+    
 }
 
 .team-member-sprite{
@@ -125,7 +123,7 @@ dan krijgen de cards width:30%
 }
 
 .team-member-sprite:hover {
-animation-name: bounce;
+    animation-name: bounce;
     animation-duration: 2.2s;
     animation-iteration-count: 1s;
 }
@@ -200,16 +198,23 @@ animation-name: bounce;
 }
 
 
-footer{
-
-}
-
 /* tablet scherm */
 @media screen and (min-width: 768px) {
     .team-member-card {
             width: 30%;
+            margin-left: 1.4em;
             /* flex-grow: 1; */
         }
+                .member-name {
+                    font-size: 20px;
+                }
+        
+                .member-job {
+                    font-size: 16px;
+                    margin-bottom: 2em;
+                    margin-top: 0.5em;
+                    color: rgb(139, 144, 145);
+                }
 
                 .team-member-img {
                     height: 20em;
@@ -224,20 +229,69 @@ footer{
                     border-radius: 0.3em;
                     position: relative;
                 }
+
+                                .text {
+                                    font-size: 24px;
+                                    margin-bottom: 2em;
+                
+                                }
+                
+                                .text2 {
+                                    opacity: 1;
+                                    font-size: 24px;
+                                    margin-bottom: 2em;
+                                    transition: all 360ms ease-out;
+                                    transition: transform 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+                                    transform: translateY(100%);
+                                }
+
+                                                                .show {
+                                                                    opacity: 1;
+                                                                    transform: translateY(0);
+                                                                }
 }
 
 /* laptop scherm */
 @media screen and (min-width: 1024px) {
+
 .team-member-card {
         width: 25%;
+        margin-left: 4em;
         
 }
+
+.member-name {
+    font-size: 23px;
+}
+
+.member-job {
+    font-size: 20px;
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+    color: rgb(139, 144, 145);
+}
+
+.team-member-img {
+    height: 22em;
+    width: 18em;
+    border-radius: 0.3em;
+    position: relative;
+}
+
+.team-join-img {
+    height: 22em;
+    width: 18em;
+    border-radius: 0.3em;
+    position: relative;
+}
+
+
 }
 
 /* groot laptop scherm */
 @media screen and (min-width: 1440px) {
 .team-member-card {
-        width: 25%;
+        width: 20%;
        
         /* flex-grow: 1; */
     }
