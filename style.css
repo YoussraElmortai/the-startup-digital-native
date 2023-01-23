@@ -80,7 +80,7 @@ main{
 }
 
 .team-member-card{
-    width: 40%; 
+    width: 50%; 
 
     /* flex-grow: 1; */
 }
@@ -94,14 +94,14 @@ dan krijgen de cards width:30%
 
 .team-member-img{
     height: 20em;
-    width: 9.4em;
+    width: 15em;
     border-radius: 0.3em;
     position: relative;
 }
 
 .team-join-img{
     height: 20em;
-    width: 13em;
+    width: 15em;
     border-radius: 0.3em;
     position: relative;
 }
@@ -120,13 +120,16 @@ dan krijgen de cards width:30%
     position: relative;
     top: 22em;
     margin-left: 10em;
+
+   
 }
 
-.sprite-animation{
-    animation-name: bounce;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
+.team-member-sprite:hover {
+animation-name: bounce;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1s;
 }
+
 
 /* bounce animation */
 
