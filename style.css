@@ -1,8 +1,11 @@
-:root body {
+
+
+
+
+body {
     font-family: 'Gill Sans', 'Gill Sans MT';
     display: flex;
     flex-direction: column;
-
 
 }
 
@@ -61,6 +64,11 @@ z-index: 1; */
     margin-bottom: 1em;
 }
 
+
+main{
+    align-items: center;
+}
+
 .team-container {
     display: flex;
     flex-direction: column;
@@ -73,6 +81,7 @@ z-index: 1; */
     flex-wrap: wrap;
     flex-direction: row;
     position: relative;
+
 }
 
 .team-member-card {
