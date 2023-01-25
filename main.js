@@ -29,3 +29,10 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
 document.getElementById("snap").addEventListener("click", () => {
   context.drawImage(video, 0, 0, 640, 480);
 });
+
+showCanvas = () => {
+  const canvas = document.getElementById("canvas");
+  canvas.dataset.hidden = false;
+};
+
+// showCanvas();

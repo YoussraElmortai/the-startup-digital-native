@@ -137,6 +137,16 @@ dan krijgen de cards width:30%
     animation-iteration-count: 1s;
 }
 
+#video {
+        height: 20em;
+        width: 16em;
+        border-radius: 0.3em;
+        position: relative;
+}
+
+canvas[data-hidden=true] {
+    display: none;
+}
 
 /* bounce animation */
 
