@@ -29,10 +29,10 @@ De gerbuiker kan op de pagina een foto laten maken
 De afbeeldingen van de teammembers fade uit en er komt een alternartive afbeeldingen te voorschijn
 
 ### tools
--HTML
--JAVASCRIPT
--CSS
--VISUAL STUDIO CODE
+-  HTML
+-  JAVASCRIPT
+-  CSS
+-  VISUAL STUDIO CODE
 
 ## checklist wel gelukt/ niet gelukt 🦍
 -   Gerbuiker kan een foto maken ✅
