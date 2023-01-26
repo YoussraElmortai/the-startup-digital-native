@@ -28,6 +28,10 @@ of maken en dat ze zo naar de vacature pagina worden gewezen.
 De gerbuiker kan op de pagina een foto laten maken
 De afbeeldingen van de teammembers fade uit en er komt een alternartive afbeeldingen te voorschijn
 
+## take a picture
+Ik coderen ook dat je een foto kon maken op de site
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
 ### tools
 -  HTML
 -  JAVASCRIPT
@@ -41,6 +45,6 @@ De afbeeldingen van de teammembers fade uit en er komt een alternartive afbeeldi
 
 ## Licentie
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
 
 This work is licensed under [GNU GPLv3](./LICENSE).
