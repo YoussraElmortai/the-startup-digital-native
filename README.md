@@ -1,4 +1,3 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Digital native teampagina ✌
 
@@ -30,7 +29,7 @@ De afbeeldingen van de teammembers fade uit en er komt een alternartive afbeeldi
 
 ## take a picture
 Ik coderen ook dat je een foto kon maken op de site
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
 
 ### tools
 -  HTML
@@ -45,6 +44,6 @@ Ik coderen ook dat je een foto kon maken op de site
 
 ## Licentie
 
-
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
 This work is licensed under [GNU GPLv3](./LICENSE).
