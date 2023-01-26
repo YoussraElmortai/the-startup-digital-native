@@ -220,6 +220,15 @@ canvas[data-hidden=true] {
 
 /* tablet scherm */
 @media screen and (min-width: 768px) {
+
+    .digital-natives {
+            height: 5em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            margin-left: 19em
+        }
+
+
     .team-member-card {
         width: 30%;
         margin-left: 1.4em;
@@ -254,6 +263,8 @@ canvas[data-hidden=true] {
     .text {
         font-size: 24px;
         margin-bottom: 2em;
+        width: 28em;
+        margin-left: 15.3em;
 
     }
 
@@ -264,6 +275,9 @@ canvas[data-hidden=true] {
         transition: all 360ms ease-out;
         transition: transform 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
         transform: translateY(100%);
+        width: 28em;
+        margin-left: 15.3em;
+
     }
 
     .show {
@@ -279,7 +293,7 @@ canvas[data-hidden=true] {
 
     .hamburger-placeholder {
             height: 2.5em;
-            margin-left: 93em;
+            margin-left: 75em;
             margin-top: 1.5em;
     
         }
