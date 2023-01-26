@@ -13,15 +13,20 @@
 ![mobile](https://user-images.githubusercontent.com/112857270/214789977-b7458e50-e29c-4e0e-90fc-a50b573c2363.png)
 
 
-## Kenmerken 🤳
+## interactie 🤳
+De gerbuiker kan op de pagina een foto laten maken
+De afbeeldingen van de teammembers fade uit en er komt een alternartive afbeeldingen te voorschijn
 
 ### tools
-HTML
-JAVASCRIPT
-CSS
-VISUAL STUDIO CODE
+-HTML
+-JAVASCRIPT
+-CSS
+-VISUAL STUDIO CODE
 
-## 
+## checklist wel gelukt/ niet gelukt 🦍
+-   Gerbuiker kan een foto maken ✅
+-   De  afbeeldingen van de members veranderen ❎
+-   moedigt aan om naar vacature pagina te gaan ❎
 
 ## Licentie
 
