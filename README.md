@@ -1,7 +1,6 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Digital native teampagina ✌
-<img width="181" alt="digital screenshot" src="https://user-images.githubusercontent.com/112857270/214790386-581cbea2-1e38-4208-b7ab-185f965b5beb.png">
 
 ## de opdrachtgever 🧠
 <img width="181" alt="digital screenshot" src="https://user-images.githubusercontent.com/112857270/214790386-581cbea2-1e38-4208-b7ab-185f965b5beb.png">
