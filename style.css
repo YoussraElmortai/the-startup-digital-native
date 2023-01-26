@@ -1,5 +1,5 @@
 
-
+:root
 
 
 body {
@@ -14,8 +14,7 @@ header {
     width: 100%;
     flex-direction: row;
     margin-bottom: 1em;
-    /* position: fixed;
-z-index: 1; */
+    /* position: fixed; */
 }
 
 
@@ -25,25 +24,27 @@ z-index: 1; */
 
 .hamburger-placeholder {
     height: 2.5em;
-    margin-left: 13em;
+    margin-left: 13.3em;
     margin-top: 1.5em;
+   
 }
 
 
 .digital-natives {
     height: 4em;
+    margin-top: 2em;
     margin-bottom: 1em;
 }
 
 .text {
-    font-size: 19px;
+    font-size: 25px;
     margin-bottom: 2em;
 
 }
 
 .text2 {
     opacity: 1;
-    font-size: 19px;
+    font-size: 25px;
     margin-bottom: 2em;
     transition: all 360ms ease-out;
     transition: transform 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
@@ -274,6 +275,18 @@ canvas[data-hidden=true] {
 /* laptop scherm */
 @media screen and (min-width: 1024px) {
 
+
+
+    .hamburger-placeholder {
+            height: 2.5em;
+            margin-left: 93em;
+            margin-top: 1.5em;
+    
+        }
+
+
+
+
     .team-member-card {
         width: 25%;
         margin-left: 4em;
@@ -310,6 +323,9 @@ canvas[data-hidden=true] {
 
 /* groot laptop scherm */
 @media screen and (min-width: 1440px) {
+
+
+
     .team-member-card {
         width: 20%;
 
